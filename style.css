@@ -1,0 +1,8 @@
+body {
+  background-color: black;
+}
+
+.button .badge{
+  color:white;
+  size: 100px;
+}
