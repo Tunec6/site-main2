@@ -11,15 +11,16 @@ header {
   justify-content: space-between;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+nav>a .link {
   display: flex;
   align-items: center;
-  flex-direction: row-reverse;
+  justify-content: space-around;
+  
 }
 
-div .button .badge{
-  color:white;
-  size: 100px;
+a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 38px;
+  padding: 0px 60px;
 }
