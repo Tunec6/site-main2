@@ -9,6 +9,8 @@ header {
   display: flex;
   align-items:baseline;
   justify-content: space-between;
+  margin: 0px 38px;
+  padding-top: 18px;
 }
 
 nav>a .link {
@@ -21,6 +23,10 @@ nav>a .link {
 a{
   text-decoration: none;
   color: white;
-  margin: 0px 38px;
-  padding: 0px 60px;
+  padding-left: 60px;
+}
+
+div .button{
+  display: flex;
+
 }
