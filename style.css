@@ -1,8 +1,25 @@
+* {
+  font-family: 'Orbitron', sans-serif;
+}
 body {
   background-color: black;
 }
 
-.button .badge{
+header {
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+div .button .badge{
   color:white;
   size: 100px;
 }
