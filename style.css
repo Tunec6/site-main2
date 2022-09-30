@@ -2,17 +2,21 @@
   font-family: 'Orbitron', sans-serif;
 }
 body {
-  background-color: black;
+  background:linear-gradient(to right,#000000 55%,#57B8FF 45%)
+
 }
 
 header {
   display: flex;
-  align-items:baseline;
+  align-items:center;
   justify-content: space-between;
-  margin: 0px 38px;
-  padding-top: 18px;
+  margin: 0px 28px;
+  padding: 18px 18px auto;
 }
-
+img .logo{
+  display: flex;
+  align-items: center;
+}
 nav>a .link {
   display: flex;
   align-items: center;
@@ -23,10 +27,13 @@ nav>a .link {
 a{
   text-decoration: none;
   color: white;
-  padding-left: 60px;
+  margin:60px 60px auto;
+  font-size: 16px;
+  font-weight: 400;
+
 }
 
-div .button{
+div .button .cart{
   display: flex;
-
+  justify-content: flex-end; 
 }
