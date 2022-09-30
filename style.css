@@ -32,15 +32,25 @@ a{
 }
  .buttons{
   display: flex;
+  align-items: center;
 
 }
 .buttons .cart{
   display: flex;
   height: 32px;
   padding-right: 40px;
-  
+  align-items: center;
+}
+
+.buttons .badge{
+  background:white;
+  font-weight: 9px;
+  height: 18px
+  border-radius:;
+
 }
  .buttons .class-type{
+    color:white;
     padding: 16px 31px;
     background: none;
     border: 1px solid #fff;
