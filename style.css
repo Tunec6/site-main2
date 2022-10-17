@@ -69,8 +69,16 @@ a{
 div.main-main{
 }
 
-
 div.future{
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 297px;
+  right: 1137px;
+  left: 66px;
+}
+
+div.future>p{
   color: #57B8FF;
   font-weight: 400;
   font-size: 16px;
@@ -78,10 +86,22 @@ div.future{
 }
 
 div.Unlesh{
-  color:#FFFFFF;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 337px;
+  right: 724px;
+  left: 60px;
 }
 
 div.lorem{
+  position: absolute;
+  top: 640px;
+  right: 765px;
+  left: 60px;
+}
+
+div.lorem>p{
   color: #999999;
   font-weight: 400px;
   font-size: 18px;
@@ -90,14 +110,27 @@ div.lorem{
 
 nav.side{
   display: flex;
-  flex-direction:column;
-  align-items: flex-start;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 20px;
+  right: 319px;
+  left: 1395px;
 }
 
 nav.side>a{
   color:#80858F;
-  transform: rotate(-90deg);
   font-size: 11px;
   margin-top: 49;
 }
 
+div.fort{
+  display: flex;
+  justify-content: flex-end;
+  height: 518px;
+  width: 660px;
+  top: 5px; 
+  position: absolute;
+  left: 50%;
+  right: 0%;
+  top: calc(50% - 518px/2);
+}
