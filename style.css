@@ -66,8 +66,6 @@ a{
     align-items: center;
 }
 
-div.main-main{
-}
 
 div.future{
   display: flex;
@@ -110,27 +108,60 @@ div.lorem>p{
 
 nav.side{
   display: flex;
-  transform: rotate(270deg);
+  transform: rotate(-90deg);
   position: absolute;
-  top: 20px;
-  right: 319px;
-  left: 1395px;
+  top: -100px;
+  right: 1119px;
+  left: 145px;
+  bottom: 100px;
 }
 
 nav.side>a{
   color:#80858F;
-  font-size: 11px;
-  margin-top: 49;
+  font-size: 12px;
+  margin-left: 9px;
+  width: 81px;
+  height: 25px;
+  font-weight: 400;
 }
 
-div.fort{
+.fort{
   display: flex;
   justify-content: flex-end;
   height: 518px;
   width: 660px;
-  top: 5px; 
+  top: 10px; 
   position: absolute;
-  left: 50%;
-  right: 0%;
-  top: calc(50% - 518px/2);
+  top: 318px;
+  left: 962px;
+}
+
+
+.ref .explore{
+  color:white;
+  padding: 16px 31px;
+  background:#57B8FF;
+  background-size: 203px 70px;
+  font-size: 16px;
+  width: 203px;
+  font-size:18px;
+  font-weight: 400;
+  line-height: 70px;
+  user-select: none;
+  position:absolute;
+  top: 750px;
+  left: 57px;
+} 
+
+.ref .viem{
+  color: #fff;
+  background: #000000;
+  user-select: none;
+  font-size: 16px;
+  line-height: 28px;
+  width: 148px;
+  height: 28px;
+  position:absolute;
+  top: 785px;
+  left: 297px;
 }
